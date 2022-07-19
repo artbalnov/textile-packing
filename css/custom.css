@@ -1,0 +1,55 @@
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+    padding: 8rem 0 3rem;
+    text-align: center;
+}
+.section-heading,
+.section-description {
+    margin-bottom: 1.2rem;
+}
+
+/* Title
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.bags {
+    position: relative;
+}
+.bag {
+    position: relative;
+    max-width: 100%;
+    margin: 1rem auto -10rem;
+}
+.bag + .bag {
+    display: none;
+}
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.values {
+    background-image: url('../images/values_bg.jpg');
+    background-size: cover;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+}
+
+.value-multiplier {
+    margin-bottom: .5rem;
+}
+.value-heading {
+    margin-bottom: .3rem;
+}
+
+.value-description {
+    font-size: 1.2em;
+    opacity: .8;
+    font-weight: 350;
+}
+
+/* Bottom
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.contacts {
+    background-image: url('../images/values_bg.jpg');
+    background-size: cover;
+    padding-bottom: 8rem;
+}
+
